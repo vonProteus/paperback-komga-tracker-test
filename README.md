@@ -6,6 +6,9 @@ repo to demonstrate problem with not syncing of read books in [paperback](https:
 ```
 docker compose -f docker-compose.yaml up
 ```
+
+after that on port 25600 there is running komga 
+
 to stop hit `^c`
 
 ## assess credentials
@@ -20,4 +23,4 @@ password: `qwe321`
 
 ## video demonstrating problem
 
-![](problem/RPReplay_Final1702138800.MP4)
+[![](problem/RPReplay_Final1702138800.MP4.png)](problem/RPReplay_Final1702138800.MP4)
