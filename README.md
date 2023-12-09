@@ -13,3 +13,11 @@ to stop hit `^c`
 email: `tmp@domain.invalid`
 
 password: `qwe321`
+
+## address of Paperback extensions repo 
+
+[https://paperback-ios.github.io/extensions-default/komga-tracker-test/](https://paperback-ios.github.io/extensions-default/komga-tracker-test/)
+
+## video demonstrating problem
+
+![](problem/RPReplay_Final1702138800.MP4)
