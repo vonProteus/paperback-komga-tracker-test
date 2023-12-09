@@ -1,0 +1,20 @@
+---
+version: '3.3'
+services:
+   komga:
+      image: ghcr.io/gotson/komga:1.8.4
+      container_name: komga
+      volumes:
+         - type: bind
+           source: ./config
+           target: /config
+         - type: bind
+           source: ./libraries
+           target: /data
+      ports:
+         - 25600:25600
+      user: "1000:1000"
+      environment:
+         - JAVA_TOOL_OPTIONS=-Xmx2g
+         - TZ=Europe/London
+      restart: unless-stopped
